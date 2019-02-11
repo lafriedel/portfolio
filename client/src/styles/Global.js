@@ -1,9 +1,15 @@
 import { css } from 'styled-components';
 
 export const Global = css`
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-size: 62.5%;
     font-family: 'Montserrat', sans-serif;
+    background: #FCFAFA;
+    color: #222;
 }
 
 h2, h3 {
@@ -27,8 +33,14 @@ h3 {
 }
 
 p, a, span {
-    font-size: 1.8rem;
-    margin-bottom: 8px;
+    font-size: 2.2rem;
+    margin-bottom: 6px;
+    line-height: 3rem;
+
+    @media (max-width: 575px) {
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+    }
 }
 
 button {
@@ -36,5 +48,9 @@ button {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-size: 1rem;
+}
+
+a {
+    color: #21ba75;
 }
 `;

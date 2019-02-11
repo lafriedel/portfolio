@@ -4,11 +4,28 @@ import { About } from '../Sections';
 import { Projects } from '../Sections';
 import { Contact } from '../Sections';
 
+import styled from 'styled-components';
+
+const CoverDiv = styled.div`
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 90vh;
+
+@media (max-width: 575px) {
+    height: 70vh;
+
+}
+`;
+
 const Home = props => {
     return (
         <>
-            <Header />
-            <About />
+            <CoverDiv>
+                <Header />
+                <About />
+            </CoverDiv>
             <Projects />
             <Contact />
         </>
