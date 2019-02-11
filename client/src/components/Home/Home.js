@@ -14,7 +14,10 @@ align-items: center;
 height: 90vh;
 
 @media (max-width: 575px) {
-    height: 70vh;
+    min-height: 450px;
+    height: 100%;
+    justify-content: flex-start;
+    margin-top: 4rem;
 
 }
 `;

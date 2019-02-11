@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import '../../styles/cssans.min.css';
 
 const HeaderContainer = styled.div`
-width: 83%;
+width: 85%;
 
 @media (max-width: 800px) {
     width: 100%;

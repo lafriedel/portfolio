@@ -26,10 +26,15 @@ h1 {
 h2 {
     font-size: 1.3rem;
     text-transform: uppercase;
+    color: #222;
+    background: #B1EDCE;
+    display: inline-block;
+    padding: 3px 5px;
+    letter-spacing: .1rem;
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 2.6rem;
 }
 
 p, a, span {
@@ -45,12 +50,23 @@ p, a, span {
 
 button {
     padding: 8px 12px;
+    margin: 15px 0;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    border: 0;
+    border-radius: 3px;
+    background: #AEAEAE;
+    cursor: pointer;
 }
 
 a {
-    color: #21ba75;
+    color: #ED1576;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 `;
