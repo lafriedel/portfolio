@@ -9,7 +9,11 @@ margin: 5px auto;
   width: 100%;
 }
 
-p, a {
+span {
+  font-weight: 500;
+}
+
+p, a, span {
   font-size: 2.2rem;
 
   @media (max-width:575px) {
@@ -23,7 +27,7 @@ const About = props => {
   return (
     <AboutContainer>
       <p>
-        Welcome! I'm Leigh-Ann. I'm a front-end web engineer, designer, and artist.
+        Welcome! I'm Leigh-Ann. I'm a <span>front-end web engineer, designer, and artist</span>.
         Currently, I live in Arlington, Virginia, and I'm attending <a href="https://www.lambdaschool.com" target="_blank">Lambda School</a> full-time. Previously, I've worked with Anthropologie, the DC Public Library, and Wanderlust Yoga Festival.
       </p>
     </AboutContainer>
