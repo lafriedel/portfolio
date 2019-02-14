@@ -40,12 +40,12 @@ h3 {
 }
 
 p, a, span {
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     margin-bottom: 6px;
     line-height: 3rem;
 
     @media (max-width: 575px) {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         line-height: 2.6rem;
     }
 }
@@ -54,13 +54,16 @@ button {
     padding: 8px 12px;
     margin: 15px 0;
     font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    letter-spacing: .1rem;
-    border: 0;
+    font-size: 1.4rem;
+    border: 2px solid #B1EDCE;
     border-radius: 3px;
-    background: #AEAEAE;
+    background: #B1EDCE;
     cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: 0.1s;
+    }
 }
 
 a {
@@ -73,7 +76,11 @@ a:hover {
 }
 
 .section {
-    background: #B1EDCE;
+    background: #DADADA;
     width: 115px;
+
+    @media (max-width:575px) {
+        margin: 0 auto;
+    }
 }
 `;

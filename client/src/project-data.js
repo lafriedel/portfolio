@@ -10,7 +10,8 @@ const projects = [
         technologies: "React, React Router, Redux, Styled Components",
         description: "tippr is a digital tipping app designed to deliver tips directly from guest to worker.",
         marketingImage: tippr,
-        projectURL: "https://justin-tippr.netlify.com/"
+        projectURL: "https://justin-tippr.netlify.com/",
+        githubRepo: "https://github.com/tippr-application/tippr-frontend-leigh-ann"
     },
     {
         id: 1,
@@ -19,7 +20,8 @@ const projects = [
         technologies: "CSS, Styled Components",
         description: "Compound is a simple web application to help Lambda School students visualize their expected income growth over time, compared to their income before attending Lambda.",
         marketingImage: compound,
-        projectURL: "https://compound.careers/"
+        projectURL: "https://compound.careers/",
+        githubRepo: "https://github.com/LambdaWinter19Hackathon-Calculator/Hackathon_Income_Calculator"
     },
     {
         id: 2,
@@ -28,7 +30,8 @@ const projects = [
         technologies: "HTML5, CSS3, Javascript",
         description: "Stylogue is an online portfolio application for cosplay stylists and cosplayers to connect and collaborate. Stylists can display their work, and cosplayers can like and comment on stylists' photos.",
         marketingImage: stylogue,
-        projectURL: "http://carlosv.me/hair-care-landing-page/index.html"
+        projectURL: "http://carlosv.me/hair-care-landing-page/index.html",
+        githubRepo: "https://github.com/cornielleandres/hair-care-landing-page"
     },
     // {
     //     id: 3,

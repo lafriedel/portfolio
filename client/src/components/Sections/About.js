@@ -8,6 +8,15 @@ margin: 5px auto;
 @media (max-width: 800px) {
   width: 100%;
 }
+
+p, a {
+  font-size: 2.2rem;
+
+  @media (max-width:575px) {
+    font-size: 1.8rem;
+  }
+}
+
 `;
 
 const About = props => {
