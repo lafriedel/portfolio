@@ -8,13 +8,13 @@ width: 85%;
 @media (max-width: 800px) {
     width: 100%;
 
-    [class^="cssans:"] {
+    [className^="cssans:"] {
         font-size: 2.76rem;
     }
 }
 
 @media (max-width: 575px) {
-    [class^="cssans:"] {
+    [className^="cssans:"] {
         font-size: 1.85rem;
     }
 }
@@ -28,29 +28,29 @@ width: 85%;
 const Header = props => {
     return (
 <HeaderContainer>
-<div class="cssans cssans--left">
-    <div class="cssans__accessible">Leigh-Ann Friedel</div>
+<div className="cssans cssans--left">
+    <div className="cssans__accessible">Leigh-Ann Friedel</div>
 
-    <div class="cssans__word">
-        <b class="cssans:L"></b>
-        <b class="cssans:e"></b>
-        <b class="cssans:i"></b>
-        <b class="cssans:g"></b>
-        <b class="cssans:h"></b>
-        <b class="cssans:-"></b>
-        <b class="cssans:A"></b>
-        <b class="cssans:n"></b>
-        <b class="cssans:n"></b>
+    <div className="cssans__word">
+        <b className="cssans:L"></b>
+        <b className="cssans:e"></b>
+        <b className="cssans:i"></b>
+        <b className="cssans:g"></b>
+        <b className="cssans:h"></b>
+        <b className="cssans:-"></b>
+        <b className="cssans:A"></b>
+        <b className="cssans:n"></b>
+        <b className="cssans:n"></b>
     </div>
 
-    <div class="cssans__word">
-        <b class="cssans:F"></b>
-        <b class="cssans:r"></b>
-        <b class="cssans:i"></b>
-        <b class="cssans:e"></b>
-        <b class="cssans:d"></b>
-        <b class="cssans:e"></b>
-        <b class="cssans:l"></b>
+    <div className="cssans__word">
+        <b className="cssans:F"></b>
+        <b className="cssans:r"></b>
+        <b className="cssans:i"></b>
+        <b className="cssans:e"></b>
+        <b className="cssans:d"></b>
+        <b className="cssans:e"></b>
+        <b className="cssans:l"></b>
     </div>
 </div>
 </HeaderContainer>
