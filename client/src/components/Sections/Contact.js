@@ -20,7 +20,9 @@ margin-bottom: 100px;
 const Contact = props => {
     return (
         <>
-        <h2>Contact</h2>
+        <div className="section">
+            <h2>Contact</h2>
+        </div>
         <p>Let's connect.</p>
 
         <ContactContainer>

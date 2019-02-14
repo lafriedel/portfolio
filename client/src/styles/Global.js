@@ -27,10 +27,12 @@ h2 {
     font-size: 1.3rem;
     text-transform: uppercase;
     color: #222;
-    background: #B1EDCE;
-    display: inline-block;
     padding: 3px 5px;
     letter-spacing: .1rem;
+
+    @media (max-width:575px) {
+        text-align: center;
+    }
 }
 
 h3 {
@@ -68,5 +70,10 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.section {
+    background: #B1EDCE;
+    width: 115px;
 }
 `;
