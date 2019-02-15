@@ -17,7 +17,7 @@ height: 90vh;
     min-height: 450px;
     height: 100%;
     justify-content: flex-start;
-    margin-top: 4rem;
+    margin-top: 6rem;
 
 }
 `;

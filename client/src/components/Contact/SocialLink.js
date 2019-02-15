@@ -14,7 +14,7 @@ padding-right: 15px;
 const SocialLink = props => {
     return (
         <SocialLinkDiv>
-            <a href={props.account.profileURL} target="_blank">  <FontAwesomeIcon icon={props.account.icon} /></a>
+            <a href={props.account.profileURL} target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={props.account.icon} /></a>
         </SocialLinkDiv>
     )
 }

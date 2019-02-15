@@ -29,10 +29,10 @@ h2 {
     color: #222;
     padding: 3px 5px;
     letter-spacing: .1rem;
-
+/* 
     @media (max-width:575px) {
         text-align: center;
-    }
+    } */
 }
 
 h3 {
@@ -78,9 +78,9 @@ a:hover {
 .section {
     background: #DADADA;
     width: 115px;
-
+/* 
     @media (max-width:575px) {
         margin: 0 auto;
-    }
+    } */
 }
 `;

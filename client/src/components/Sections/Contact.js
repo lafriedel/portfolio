@@ -14,7 +14,7 @@ justify-content: space-between;
 
 const SocialLinkContainer = styled.div`
 display: flex;
-margin-bottom: 100px;
+margin-bottom: 30px;
 `;
 
 const Contact = props => {
@@ -23,7 +23,7 @@ const Contact = props => {
         <div className="section">
             <h2>Contact</h2>
         </div>
-        <p>Let's connect.</p>
+        <p>Let's connect!</p>
 
         <ContactContainer>
         <a href="mailto:leigh.ann.friedel@gmail.com">leigh.ann.friedel@gmail.com</a>

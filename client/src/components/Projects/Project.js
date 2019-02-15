@@ -3,10 +3,10 @@ import styled from "styled-components";
 
 const ProjectContainer = styled.div`
   display: flex;
-  padding: 40px 0 60px 0;
-  margin: 0 0 80px 10px;
+  padding: 40px 0 60px;
+  margin-bottom: 80px;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 
   &:nth-child(even) {
     flex-direction: row-reverse;
@@ -26,16 +26,20 @@ const ProjectInfoContainer = styled.div`
   width: 55%;
 
   span {
-    font-weight: 700;
+    font-weight: 500;
   }
 
   @media (max-width: 800px) {
-    width: 85%;
+    width: 100%;
 
-    h3 {
+    /* h3 {
         text-align: center;
-    }
+    } */
   }
+`;
+
+const Description = styled.p`
+  margin-bottom: 15px;
 `;
 
 const ProjectButtons = styled.div`
@@ -46,13 +50,13 @@ button {
     margin-right: 25px;
 }
 
-@media (max-width:800px) {
+/* @media (max-width:800px) {
     justify-content: center;
 
     button {
         margin: 15px 12px;
-    }
-}
+    } */
+/* } */
 `;
 
 
@@ -66,9 +70,9 @@ const ProjectImgContainer = styled.div`
     margin-bottom: 40px;
   }
 
-  @media (max-width:575px) {
+  /* @media (max-width:575px) {
       width: 80%;
-  }
+  } */
 `;
 
 const ProjectImg = styled.img`
@@ -82,7 +86,7 @@ const Project = props => {
     <ProjectContainer>
       <ProjectInfoContainer>
         <h3>{props.project.title}</h3>
-        <p>{props.project.description}</p>
+        <Description>{props.project.description}</Description>
         <p>
           <span>Role:</span> {props.project.role}
         </p>
@@ -90,10 +94,10 @@ const Project = props => {
           <span>Technologies used:</span> {props.project.technologies}
         </p>
         <ProjectButtons>
-          <a href={props.project.projectURL} target="_blank">
+          <a href={props.project.projectURL} target="_blank" rel="noopener noreferrer">
             <button>View Project</button>
           </a>
-          <a href={props.project.githubRepo} target="_blank">
+          <a href={props.project.githubRepo} target="_blank" rel="noopener noreferrer">
             <button>GitHub Repo</button>
           </a>
         </ProjectButtons>
