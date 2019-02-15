@@ -31,10 +31,6 @@ const ProjectInfoContainer = styled.div`
 
   @media (max-width: 800px) {
     width: 100%;
-
-    /* h3 {
-        text-align: center;
-    } */
   }
 `;
 
@@ -43,22 +39,13 @@ const Description = styled.p`
 `;
 
 const ProjectButtons = styled.div`
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 
-button {
+  button {
     margin-right: 25px;
-}
-
-/* @media (max-width:800px) {
-    justify-content: center;
-
-    button {
-        margin: 15px 12px;
-    } */
-/* } */
+  }
 `;
-
 
 const ProjectImgContainer = styled.div`
   width: 40%;
@@ -69,10 +56,6 @@ const ProjectImgContainer = styled.div`
     width: 100%;
     margin-bottom: 40px;
   }
-
-  /* @media (max-width:575px) {
-      width: 80%;
-  } */
 `;
 
 const ProjectImg = styled.img`
@@ -94,10 +77,18 @@ const Project = props => {
           <span>Technologies used:</span> {props.project.technologies}
         </p>
         <ProjectButtons>
-          <a href={props.project.projectURL} target="_blank" rel="noopener noreferrer">
+          <a
+            href={props.project.projectURL}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button>View Project</button>
           </a>
-          <a href={props.project.githubRepo} target="_blank" rel="noopener noreferrer">
+          <a
+            href={props.project.githubRepo}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button>GitHub Repo</button>
           </a>
         </ProjectButtons>
