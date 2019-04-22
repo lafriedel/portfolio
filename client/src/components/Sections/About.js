@@ -29,17 +29,7 @@ const About = props => {
     <AboutContainer>
       <p>
         Hello, I'm Leigh-Ann! I'm a{" "}
-        <span>front-end web engineer, designer, and artist</span>. Currently, I
-        live in Arlington, Virginia, and I'm attending{" "}
-        <a
-          href="https://www.lambdaschool.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Lambda School
-        </a>{" "}
-        full-time. Previously, I've worked with Anthropologie, the DC Public
-        Library, and Wanderlust Yoga Festival. Welcome!
+        <span>full-stack developer, designer, and artist</span>. When I'm working in code I'm likely rock climbing, thinking about how to make cities and transportation more sustainable, reading up on personal finance techniques, or trying a new recipe.
       </p>
     </AboutContainer>
   );
