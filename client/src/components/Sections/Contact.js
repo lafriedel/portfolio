@@ -20,7 +20,7 @@ const SocialLinkContainer = styled.div`
 const Contact = props => {
   return (
     <>
-      <div className="section">
+      <div className="section" id="contact-section">
         <h2>Contact</h2>
       </div>
       <p>Let's connect!</p>

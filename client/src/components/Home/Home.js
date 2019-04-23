@@ -1,4 +1,5 @@
 import React from "react";
+import { Navigation } from "../Sections";
 import { Header } from "../Sections";
 import { About } from "../Sections";
 import { Skills } from "../Sections";
@@ -25,6 +26,7 @@ const CoverDiv = styled.div`
 const Home = props => {
   return (
     <>
+      {/* <Navigation /> */}
       <CoverDiv>
         <Header />
         <About />

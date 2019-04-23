@@ -25,7 +25,7 @@ const SkillCategory = styled.div`
 const Skills = props => {
   return (
     <>
-      <div className="section">
+      <div className="section" id="skills-section">
         <h2>Skills</h2>
       </div>
       <SkillsContainer>
