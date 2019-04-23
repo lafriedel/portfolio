@@ -38,6 +38,7 @@ export const Global = css`
 
   p,
   a,
+  li,
   span {
     font-size: 1.8rem;
     margin-bottom: 6px;

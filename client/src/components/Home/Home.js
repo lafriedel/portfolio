@@ -1,6 +1,7 @@
 import React from "react";
 import { Header } from "../Sections";
 import { About } from "../Sections";
+import { Skills } from "../Sections";
 import { Projects } from "../Sections";
 import { Contact } from "../Sections";
 
@@ -28,6 +29,7 @@ const Home = props => {
         <Header />
         <About />
       </CoverDiv>
+      <Skills />
       <Projects />
       <Contact />
     </>
