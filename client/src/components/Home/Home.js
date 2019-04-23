@@ -16,17 +16,16 @@ const CoverDiv = styled.div`
   height: 90vh;
 
   @media (max-width: 575px) {
-    min-height: 450px;
+    min-height: 375px;
     height: 100%;
     justify-content: flex-start;
-    margin-top: 6rem;
+    margin-top: 10rem;
   }
 `;
 
 const Home = props => {
   return (
     <>
-      {/* <Navigation /> */}
       <CoverDiv>
         <Header />
         <About />
