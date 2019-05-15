@@ -29,7 +29,7 @@ const About = props => {
     <AboutContainer>
       <p>
         Hello, I'm Leigh-Ann! I'm a{" "}
-        <span>full-stack developer, designer, and artist</span>. When I'm working in code I'm likely rock climbing, thinking about how to make cities and transportation more sustainable, reading up on personal finance techniques, or trying a new recipe.
+        <span>full-stack developer, designer, and artist</span>. When I'm not working in code I'm likely rock climbing, thinking about how to make cities and transportation more sustainable, reading up on personal finance techniques, or trying a new recipe.
       </p>
     </AboutContainer>
   );
