@@ -1,10 +1,22 @@
 import compound from "./assets/Compound.png";
 import tippr from "./assets/tippr.png";
 import stylogue from "./assets/Stylogue.png";
+import trainingBot from "./assets/TrainingBot.png";
 
 const projects = [
   {
     id: 0,
+    title: "Training Bot",
+    role: "Full-Stack Developer",
+    technologies: "React, React Router, Redux, Node, Express",
+    description:
+      "Training Bot is an app that allows training managers to send employees automated messages on scheduled intervals.",
+    marketingImage: trainingBot,
+    projectURL: "https://www.trainingbot.co",
+    githubRepo: "https://github.com/training-bot"
+  },
+  {
+    id: 1,
     title: "tippr",
     role: "Front-End React Architect",
     technologies: "React, React Router, Redux, Styled Components",
@@ -15,7 +27,7 @@ const projects = [
     githubRepo: "https://github.com/tippr-application/tippr-frontend-leigh-ann"
   },
   {
-    id: 1,
+    id: 2,
     title: "Compound",
     role: "UI Developer",
     technologies: "CSS, Styled Components",
@@ -27,7 +39,7 @@ const projects = [
       "https://github.com/LambdaWinter19Hackathon-Calculator/Hackathon_Income_Calculator"
   },
   {
-    id: 2,
+    id: 3,
     title: "Stylogue",
     role: "UI Developer",
     technologies: "HTML5, CSS3, Javascript",
