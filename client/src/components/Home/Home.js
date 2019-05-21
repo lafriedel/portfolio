@@ -1,10 +1,5 @@
 import React from "react";
-import { Navigation } from "../Sections";
-import { Header } from "../Sections";
-import { About } from "../Sections";
-import { Skills } from "../Sections";
-import { Projects } from "../Sections";
-import { Contact } from "../Sections";
+import { Header, About, Skills, Projects, Art, Contact } from "../Sections";
 
 import styled from "styled-components";
 
@@ -32,6 +27,7 @@ const Home = props => {
       </CoverDiv>
       <Skills />
       <Projects />
+      <Art />
       <Contact />
     </>
   );
