@@ -1,4 +1,5 @@
 import React from "react";
+import { ArtProject } from "../Art";
 
 const Art = () => {
   return (
