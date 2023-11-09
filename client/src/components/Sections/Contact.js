@@ -6,6 +6,14 @@ import styled from "styled-components";
 const ContactContainer = styled.div`
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+  width: 85%;
+  margin: 5px auto;
+
+  @media (max-width: 800px) {
+    width: 100%;
+    flex-direction: column;
+  }
 
   @media (max-width: 575px) {
     flex-direction: column;
@@ -14,28 +22,18 @@ const ContactContainer = styled.div`
 
 const SocialLinkContainer = styled.div`
   display: flex;
-  margin-bottom: 30px;
 `;
 
 const Contact = props => {
   return (
-    <>
-      <div className="section" id="contact-section">
-        <h2>Contact</h2>
-      </div>
-      <p>Let's connect!</p>
-
-      <ContactContainer>
-        <a href="mailto:leigh.ann.friedel@gmail.com">
-          leigh.ann.friedel@gmail.com
-        </a>
-        <SocialLinkContainer>
-          {social.map(account => (
-            <SocialLink account={account} key={account.account} />
+    <ContactContainer>
+      <p>Let's connect! I'd love to hear from you.</p>
+      <SocialLinkContainer>
+        {social.map(account => (
+          <SocialLink account={account} key={account.account} />
           ))}
-        </SocialLinkContainer>
-      </ContactContainer>
-    </>
+      </SocialLinkContainer>
+    </ContactContainer>
   );
 };
 

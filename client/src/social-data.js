@@ -1,20 +1,13 @@
 import {
-  faAngellist,
-  faTwitter,
   faLinkedinIn,
   faGithub
 } from "@fortawesome/free-brands-svg-icons";
-
+import { faInbox } from "@fortawesome/free-solid-svg-icons"
 const social = [
   {
-    account: "Twitter",
-    profileURL: "https://twitter.com/lafriedel/",
-    icon: faTwitter
-  },
-  {
-    account: "GitHub",
-    profileURL: "https://github.com/lafriedel/",
-    icon: faGithub
+    account: "E-mail",
+    profileUrl: "mailto:leigh.ann.friedel@gmail.com",
+    icon: faInbox
   },
   {
     account: "LinkedIn",
@@ -22,10 +15,10 @@ const social = [
     icon: faLinkedinIn
   },
   {
-    account: "AngelList",
-    profileURL: "https://angel.co/leigh-ann-friedel",
-    icon: faAngellist
-  }
+    account: "GitHub",
+    profileURL: "https://github.com/lafriedel/",
+    icon: faGithub
+  },
 ];
 
 export default social;
