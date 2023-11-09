@@ -1,24 +1,6 @@
 import React from "react";
-import styled from "styled-components";
+import { HeaderContainer } from "./Sections.styles";
 import "../../styles/cssans.min.css";
-
-const HeaderContainer = styled.div`
-  width: 85%;
-
-  @media (max-width: 800px) {
-    width: 100%;
-
-    b {
-      font-size: 2.76rem;
-    }
-  }
-
-  @media (max-width: 575px) {
-    b {
-      font-size: 1.5rem;
-    }
-  }
-`;
 
 const Header = props => {
   return (

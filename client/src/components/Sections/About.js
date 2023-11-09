@@ -1,18 +1,5 @@
 import React from "react";
-import styled from "styled-components";
-
-const AboutContainer = styled.div`
-  width: 85%;
-  margin: 5px auto;
-
-  @media (max-width: 800px) {
-    width: 100%;
-  }
-
-  span {
-    font-weight: 500;
-  }
-`;
+import { AboutContainer } from "./Sections.styles";
 
 const About = props => {
   return (
