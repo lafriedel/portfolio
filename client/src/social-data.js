@@ -6,7 +6,7 @@ import { faInbox } from "@fortawesome/free-solid-svg-icons"
 const social = [
   {
     account: "E-mail",
-    profileUrl: "mailto:leigh.ann.friedel@gmail.com",
+    profileURL: "mailto:leigh.ann.friedel@gmail.com",
     icon: faInbox
   },
   {
