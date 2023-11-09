@@ -40,12 +40,13 @@ export const Global = css`
   a,
   li,
   span {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
+    padding-bottom: 1rem;
     margin-bottom: 6px;
     line-height: 3rem;
 
     @media (max-width: 575px) {
-      font-size: 1.6rem;
+      font-size: 1.8rem;
       line-height: 2.6rem;
     }
   }

@@ -3,12 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
 
 const SocialLinkDiv = styled.div`
-  padding-left: 15px;
-
-  @media (max-width: 575px) {
-    padding-left: 0;
-    padding-right: 15px;
-  }
+  padding-left: 0;
+  padding-right: 16px;
 `;
 
 const SocialLink = props => {

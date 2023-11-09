@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Navigation } from "./components/Sections";
 import { Home } from "./components/Home";
 import { GlobalStyles } from "./styles";
 import styled from "styled-components";
@@ -14,13 +13,10 @@ const AppContainer = styled.div`
 class App extends Component {
   render() {
     return (
-      <>
-      <Navigation />
-      <AppContainer>
-        <GlobalStyles />
-        <Home />
-      </AppContainer>
-      </>
+    <AppContainer>
+      <GlobalStyles />
+      <Home />
+    </AppContainer>
     );
   }
 }

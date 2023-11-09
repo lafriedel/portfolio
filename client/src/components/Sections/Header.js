@@ -15,7 +15,7 @@ const HeaderContainer = styled.div`
 
   @media (max-width: 575px) {
     b {
-      font-size: 1.85rem;
+      font-size: 1.5rem;
     }
   }
 `;

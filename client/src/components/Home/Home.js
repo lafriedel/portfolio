@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, About, Skills, Projects, Art, Contact } from "../Sections";
+import { Header, About, Contact } from "../Sections";
 
 import styled from "styled-components";
 
@@ -8,7 +8,7 @@ const CoverDiv = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 100vh;
 
   @media (max-width: 575px) {
     min-height: 375px;
@@ -20,16 +20,11 @@ const CoverDiv = styled.div`
 
 const Home = props => {
   return (
-    <>
-      <CoverDiv>
-        <Header />
-        <About />
-      </CoverDiv>
-      <Skills />
-      <Projects />
-      <Art />
+    <CoverDiv>
+      <Header />
+      <About />
       <Contact />
-    </>
+    </CoverDiv>
   );
 };
 

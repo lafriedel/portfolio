@@ -12,16 +12,6 @@ const AboutContainer = styled.div`
   span {
     font-weight: 500;
   }
-
-  p,
-  a,
-  span {
-    font-size: 2.2rem;
-
-    @media (max-width: 575px) {
-      font-size: 1.8rem;
-    }
-  }
 `;
 
 const About = props => {
