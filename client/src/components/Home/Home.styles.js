@@ -5,13 +5,12 @@ const CoverDiv = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
 
   @media (max-width: 575px) {
     min-height: 375px;
     height: 100%;
     justify-content: flex-start;
-    margin-top: 10rem;
   }
 `;
 
